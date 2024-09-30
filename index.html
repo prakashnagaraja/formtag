@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div>
+         <!-- Container for the form elements -->
+        <h1>Tour Booking Form </h1> 
+        <h3>Note: * Mandatory fields</h3> 
+        
+        <!-- Full Name input field -->
+         <div class="label">
+        <label class="labelsize"> Full name<span>*</span>:</label><br> 
+        <input type="text" id="name" class="size"  name="Full name" required/> 
+        <br><br>
+        
+        <!-- Email Address input field -->
+           <label  class="labelsize">Email Address<span>*</span>: </label><br> 
+        <input type="email" id="email"  class="size"   name="AEmail address" required/> 
+        <br><br>
+        
+        <!-- Tour Package selection dropdown -->
+        <label class="labelsize">  Select Tour Package<span>* </span>:</label><br> 
+        <select id="tour Package" class="date"> 
+        <option value="Select Package">Select </option> 
+            <option value="South India">South India</option> 
+            <option value="North India">North India</option> 
+            <option value="Northeast India">Northeast India</option> 
+            <option value="West India">West India</option> 
+        </select>
+        <br><br>
+        <!-- Number of Persons input field -->
+        <label class="labelsize">No of Persons<span>*</span>:</label><br> 
+        <input type="number" id="number" class="size"  name="No of Persons" required/> 
+        <br><br>
+
+        <!--Date input field-->
+        <label class="labelsize">Date<span>*</span>:</label><br> <br>
+        <input type="date" id="calendar"     class="date" name="arrival date" required/><br> 
+        <br>
+        
+        
+        
+        <!-- Checkbox options  -->
+        <label class="labelsize"> would you want to avail?<span>*</span>:</label><br> 
+        <input type="checkbox" id="item1" name="Boarding"/>
+        <label>Boarding</label><br>
+        <input type="checkbox" id="item2" name="Food"/> 
+        <label>Food</label><br>
+        <input type="checkbox" id="item3" name="Sight seeing"/> 
+        <label>Sight seeing</label>
+        <br><br>
+        
+        <!-- Terms and Conditions radio button -->
+        <label class="labelsize">Terms and Conditions<span>*</span>:</label><br> <br>
+        <input type="radio" id="agree" name="Terms and Conditions" value="agree"> 
+        <label  for="agree" >I Agree</label> 
+        <br><br>
+        
+        <!-- Submit button for booking -->
+        <input type="submit" class="book"  value="BOOK NOW"/> 
+         </div>
+    </div>
+</body>
+</html>

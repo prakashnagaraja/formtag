@@ -1,0 +1,63 @@
+
+/*root element*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* body section*/
+body{
+    background-image: url(travelform-background.png);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 12px;
+}
+/*h3 tag*/
+h3{
+    color: red;
+    border-bottom: 2px solid white;
+}
+h1{
+    color: white;
+}
+/*booknow elemnt*/
+#booknow,span{
+    color: red;
+}
+.size{
+    height: 25px;
+    width: 40%;
+}
+.date{
+    height: 30px;
+    width: 40%;
+}
+/*button tag*/
+.book{
+    background-color: red;
+    color: aliceblue;
+    height: 50px;
+    border: none;
+    width: 100px;
+    border-radius: 6px;
+}
+/*
+tour package*/
+input[type= "checkbox"]{
+    appearance: none;
+ border: 2px solid black;
+ width: 15px;
+ height: 15px;
+}
+input[type="radio"]{
+    appearance: none;
+    border: 2px solid black;
+ border-radius: 50%;
+ width: 15px;
+ height: 15px;
+}
+.labelsize{
+    font-weight: bold;
+    font-size: 20px;
+}
